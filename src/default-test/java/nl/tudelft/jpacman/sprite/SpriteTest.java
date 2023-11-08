@@ -68,8 +68,8 @@ public class SpriteTest {
      */
     @Test
     public void animationWidth() {
-        AnimatedSprite animation = store.createAnimatedSprite(sprite, 4, 0,
-            false);
+        // AnimatedSprite animation = store.createAnimatedSprite(sprite, 4, 0,
+        //     false);
         assertThat(animation.getWidth()).isEqualTo(16);
     }
 
@@ -78,8 +78,8 @@ public class SpriteTest {
      */
     @Test
     public void animationHeight() {
-        AnimatedSprite animation = store.createAnimatedSprite(sprite, 4, 0,
-            false);
+        // AnimatedSprite animation = store.createAnimatedSprite(sprite, 4, 0,
+        //     false);
         assertThat(animation.getHeight()).isEqualTo(64);
     }
 
@@ -88,7 +88,7 @@ public class SpriteTest {
      */
     @Test
     public void splitWidth() {
-        Sprite split = sprite.split(10, 11, 12, 13);
+        // Sprite split = sprite.split(10, 11, 12, 13);
         assertThat(split.getWidth()).isEqualTo(12);
     }
 
@@ -97,7 +97,7 @@ public class SpriteTest {
      */
     @Test
     public void splitHeight() {
-        Sprite split = sprite.split(10, 11, 12, 13);
+        // Sprite split = sprite.split(10, 11, 12, 13);
         assertThat(split.getHeight()).isEqualTo(13);
     }
 
